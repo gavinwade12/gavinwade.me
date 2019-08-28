@@ -1,0 +1,46 @@
+baseurl = "https://gavinwade.me/"
+languageCode = "en-US"
+title = "Gavin Wade"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "self.png"
+  author = "Gavin Wade"
+  description = "Describe your website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "gavinwade12"
+  Email         = "gavin@turbosoftwaresolutions.com"
+  Twitter       = "gavinfeeds"
+  LinkedIn      = "gavin-wade-2a2b0310b"
+  Stackoverflow = "users/6069012/gavin"
+  Medium        = ""
+  Telegram      = ""
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/gavinWadeResume.pdf"
